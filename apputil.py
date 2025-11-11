@@ -61,4 +61,4 @@ def kmeans_timer(n, k, n_iter=5):
     avg_time = np.mean(times)
 
     # Returning both the list of individual runtimes and the average
-    return times, avg_time
+    return avg_time
